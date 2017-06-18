@@ -1,0 +1,84 @@
+.weather-app{
+	width: 100%;
+	height: 50vh;
+	max-width: 1500px;
+	margin: 0 auto;
+	max-height: 250px;
+	margin-top: 5vh; 
+	overflow: hidden;
+	
+}
+#weather{
+	text-align: center;
+	color: #C4C24B;
+	font-size: 5vw;
+	text-shadow: 2px 2px rgba(0,0,0,5);
+	font-family: Great Vibes;
+	font-size-adjust: 0.58;
+	text-decoration: underline;
+	margin-bottom: 5vh;
+}
+#write{
+	margin: 6vw;
+}
+#city-info,#weather-info,#temp-info,#cel{
+	
+	display: inline;
+	margin: 0 4vw auto;
+	text-align: center;
+	padding: 30px;
+	font-family: Leckerli One;
+	font-size: 3vw;
+	/*border-top-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-top-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	background-color: magenta;
+	opacity: 0.4;
+	filter: alpha (opacity=40); */
+}
+.days{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 350px;
+}
+.days li{
+	display: inline-block;
+	width: 8.33%;
+	height: auto;
+	min-height: 350px !important;
+	transition: ease-out 0.5s;
+	margin: 0;
+	padding: 0;	
+	margin-left: -3px;
+	margin-right: -3px;
+}
+img{
+	position: relative;
+}
+#butt{
+	opacity: 0;
+	box-shadow: 5px 5px 5px #000;
+	color: yellow;
+	background-color: red;
+	padding: 30px;
+	font-family: Sacramento;
+	display: inline-block;
+	margin: 0 auto;
+	z-index: 10 !important;
+	font-size: 4vw;
+	font-weight: bolder;
+}
+#butt:hover{
+	color: red;
+	background-color: yellow;
+	transition-duration: 1s;
+}
+#cel{
+	opacity: 0;
+	height: auto;
+	box-shadow: 5px 5px 5px yellow;
+	border : 2px solid #fc0;
+	margin-left: 1px !important;
+}
